@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizlilik Politikası · CebeciBarkod</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p class="back"><a href="./">← CebeciBarkod</a></p>
+  <h1>Gizlilik Politikası</h1>
+  <p class="meta">Son güncelleme: 21 Ekim 2026</p>
+
+  <section>
+    <h2>Kayıtlar nerede tutulur?</h2>
+    <p>CebeciBarkod dükkânın kendi bilgisayarında çalışır. Satış, ürün, stok ve müşteri borç kayıtları yalnızca o bilgisayarda tutulur. Bu kayıtlar program geliştiricisine veya başka bir yere gönderilmez.</p>
+  </section>
+
+  <section>
+    <h2>Google Drive ile bulut yedeği</h2>
+    <p>Bulut yedeği isteğe bağlıdır. Dükkân "Google ile bağlan" dediğinde Google'ın kendi giriş sayfası açılır; şifre programa yazılmaz ve program şifreyi hiç görmez.</p>
+    <p>Program yalnızca <code>drive.file</code> iznini ister. Bu izinle program:</p>
+    <ul>
+      <li>veritabanının yedeğini dükkânın kendi Drive'ındaki "CebeciBarkod Yedekler" klasörüne yükler,</li>
+      <li>kendi yüklediği eski yedekleri listeler ve süresi dolanları siler,</li>
+      <li>dükkân istediğinde bir yedeği indirip geri yükler,</li>
+      <li>hangi hesabın bağlı olduğunu göstermek için hesabın e-posta adresini okur.</li>
+    </ul>
+    <p>Program Drive'daki diğer dosyaları göremez, okuyamaz ve değiştiremez. Yedekler yalnızca dükkânın kendi hesabında durur; geliştirici bu yedeklere erişemez.</p>
+    <p>Google'ın verdiği bağlantı anahtarı dükkânın bilgisayarında, Windows'un kendi şifrelemesiyle saklanır.</p>
+  </section>
+
+  <section>
+    <h2>Paylaşım</h2>
+    <p>Google hesabından alınan hiçbir bilgi satılmaz, reklam için kullanılmaz ve üçüncü kişilerle paylaşılmaz. CebeciBarkod'un Google API'lerinden aldığı bilgileri kullanımı, Sınırlı Kullanım (Limited Use) şartları dahil olmak üzere <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Hizmetleri Kullanıcı Verileri Politikası</a>'na uyar.</p>
+  </section>
+
+  <section>
+    <h2>Bağlantıyı kaldırma ve silme</h2>
+    <p>Dükkân bağlantıyı programdaki "Bağlantıyı kes" düğmesiyle ya da <a href="https://myaccount.google.com/connections">Google Hesabı → Üçüncü taraf bağlantıları</a> sayfasından istediği zaman kaldırabilir. Drive'daki yedekler dükkânın kendi dosyalarıdır; istediği zaman silebilir.</p>
+  </section>
+
+  <section>
+    <h2>Müşteri bilgileri</h2>
+    <p>Borç defterine yazılan müşteri adları gibi bilgiler dükkânın kendi kayıtlarıdır. Bu bilgilerin sorumlusu dükkândır; program geliştiricisi bu bilgileri görmez ve işlemez.</p>
+  </section>
+
+  <section>
+    <h2>İletişim</h2>
+    <p><a href="mailto:cebecibarkod@gmail.com">cebecibarkod@gmail.com</a></p>
+  </section>
+
+  <section id="english" lang="en" class="en-block">
+    <h2>Privacy Policy (English)</h2>
+    <p>CebeciBarkod runs on the shop's own computer and keeps its sales, product, stock and customer debt records there. These records are never sent to the developer or anyone else.</p>
+    <p>Cloud backup is optional. When the shop connects its Google account, CebeciBarkod requests only the <code>drive.file</code> scope and uses it to upload backup copies of its own database to a "CebeciBarkod Yedekler" folder in the shop's own Google Drive, to list and delete its own older backups, to download a backup when the shop restores one, and to read the account's email address to show which account is connected. It cannot see or change any other file in the user's Drive. The developer has no access to these backups. The authorization token is stored on the shop's computer, encrypted with Windows data protection.</p>
+    <p>Information received from Google is never sold, used for advertising or shared with third parties. CebeciBarkod's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    <p>Access can be revoked at any time with the program's "Bağlantıyı kes" (disconnect) button or at <a href="https://myaccount.google.com/connections">Google Account → Third-party connections</a>. Backups in Drive belong to the user and can be deleted at any time.</p>
+    <p>Contact: <a href="mailto:cebecibarkod@gmail.com">cebecibarkod@gmail.com</a></p>
+  </section>
+</main>
+</body>
+</html>
